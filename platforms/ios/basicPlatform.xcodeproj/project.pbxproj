@@ -377,7 +377,7 @@
 				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = 3KZ592QZT6;
+						DevelopmentTeam = 38KHVEJ7L6;
 					};
 				};
 			};
@@ -513,9 +513,10 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "basicPlatform/basicPlatform-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.djrobinson.basicplatform;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.mikedee.pirate-runner";
 				PRODUCT_NAME = basicPlatform;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -536,9 +537,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "basicPlatform/basicPlatform-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.djrobinson.basicplatform;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.mikedee.pirate-runner";
 				PRODUCT_NAME = basicPlatform;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
