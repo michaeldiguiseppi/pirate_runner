@@ -132,6 +132,8 @@ Game.prototype = {
              console.log(this.responseText);
            }
          });
+      
+    console.log("Data to send: ", data);
 
          xhr.open("POST", "https://pirate-runner.herokuapp.com/score");
          xhr.setRequestHeader("content-type", "application/json");
